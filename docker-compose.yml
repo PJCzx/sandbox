@@ -48,7 +48,7 @@ services:
       - 8200:8200
     restart: unless-stopped
 
- adguard:
+  adguard:
     container_name: adguardhome
     image: adguard/adguardhome
     environment:
